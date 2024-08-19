@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none !important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Common Css end */
+
+/* blog Start */
+#Blog {
+    padding-bottom: 128px;
+}
+.blog img {
+    width: 100%;
+}
+.blog h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+.blog h5 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.blog h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 16px;
+}
+.blog p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 32px;
+}
+.blog a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+
+
+
+/* blog End */

@@ -1,0 +1,145 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul li {
+    list-style: none !important;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Stellar Section */
+#Stellar {
+    padding-bottom: 128px;
+}
+
+#Stellar .stellar_total {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Stellar .stellar_left {
+    position: relative;
+    overflow: hidden;
+}
+
+#Stellar .stellar_left img {
+    width: 100%;
+    height: 658px;
+    object-fit: cover; /* Ensures the image covers the div without distortion */
+}
+
+#Stellar .stellar_left .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.5);
+    top: 0;
+    left: 0;
+}
+
+#Stellar .stellar_left .stellar_left_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 96px 80px 0 80px;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Stellar .stellar_left_text h3 {
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+#Stellar .stellar_left_text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+#Stellar .stellar_right {
+    background-color: #1C1E53;
+    padding: 96px;
+    width: 100%; /* Takes full width on small screens */
+    max-width: 50%; /* Restricts width to 50% on larger screens */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+#Stellar .stellar_right h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+
+#Stellar .stellar_right p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #f4f6fce0;
+}
+
+#Stellar .stellar_right .form-group {
+    margin-bottom: 16px; /* Space between form groups */
+}
+
+#Stellar .stellar_right .form-control {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    padding: 18px 32px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    outline: none;
+    color: #FFFFFF; /* Text color */
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+#Stellar .stellar_right .form-control::placeholder {
+    color: #f4f6fc7a; /* Placeholder text color */
+}
+
+#Stellar .stellar_right .form-control:focus {
+    color: #FFFFFF; /* Text color when focused */
+    border-color: #FCD980; /* Border color when focused */
+    box-shadow: none; /* Remove default focus shadow */
+}
+
+#Stellar .stellar_right button {
+    width: 100%;
+    border-radius: 50px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1B1C2B;
+    background-color: transparent;
+    border: 1px solid #FCD980;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#Stellar .stellar_right button:hover {
+    background-color: #FCD980;
+    transform: scale(1.1);
+    color: #1B1C2B;
+}
+
+#Stellar .stellar_right .get_touch {
+    text-align: center;
+    padding-top: 16px;
+}

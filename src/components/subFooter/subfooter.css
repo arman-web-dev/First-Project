@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none !important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Common Css end */
+#Extra {
+    padding-top: 32px;
+    
+}
+
+.footer_bottom h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+
+.footer_bottom_nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.footer_bottom_nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}

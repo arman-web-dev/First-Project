@@ -1,0 +1,31 @@
+/* About_us Start */
+
+.about_us_total {
+    padding: 120px 0;
+}
+#About_us {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #FFFFFF;
+}
+.about_us_text h5 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.about_us_text h3 {
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.about_us_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+
+
+/* About_us End */

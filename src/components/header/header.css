@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none !important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Common Css end */
+
+
+/* Navbar Start */
+
+.navbar_total {
+
+    background-color: #1C1E53;
+}
+Nav a {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+Nav a:hover{
+    background-color: #343a6c; /* Slightly lighter shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+}
+/* Navbar End */

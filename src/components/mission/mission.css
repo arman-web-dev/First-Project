@@ -1,0 +1,40 @@
+* Inspire Start */
+
+#Inspire {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #EEF4FA ;
+}
+.inspire_total img {
+    width: 100%;
+}
+.inspire_total {
+    align-items: center;
+}
+.ins_top {
+    padding-bottom: 96px;
+}
+.inspire_total h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.inspire_total h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.inspire_total p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: rgba(40, 41, 56, 0.753);
+    
+}
+
+
+/* Inspire End */

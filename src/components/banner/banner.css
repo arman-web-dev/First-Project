@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul li {
+    list-style: none !important;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Common Css end */
+
+/* Banner Start */
+
+#Banner {
+    padding-top: 120px;
+    padding-bottom: 128px;
+    background-color: #1C1E53;
+}
+
+.banner_text h2 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.banner_text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.479);
+    font-family: "Poppins", sans-serif;
+}
+.banner_text a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 16px 42px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.829);
+    transition: .4s;
+    border: 1px solid #FCD980;
+    margin-top: 35px;
+    transform: scale(1);
+}
+.first_btn {
+    margin-right: 10px;
+}
+.banner_text a:hover {
+    background-color: #FCD980;
+    color: #1B1C2B;
+    transform: scale(1.04);
+    
+}
+/* Banner End */

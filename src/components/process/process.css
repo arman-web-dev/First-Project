@@ -1,0 +1,50 @@
+/* Process Start */
+
+#Process {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.process_title {
+    padding-bottom: 48px;
+    text-align: center;
+
+}
+.process_title h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+#Process .process_inner_all {
+    position: relative;
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-top-color: #2405F2;
+}
+.circle {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #2405F2;
+    top: -12px;
+    left: 0;
+}
+
+
+.process_inner_all h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-top: 60px;
+
+}
+.process_inner_all p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+/* Process End */

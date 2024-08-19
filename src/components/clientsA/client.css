@@ -1,0 +1,61 @@
+/* Global Styles */
+* {
+    font-family: "Poppins", sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul li {
+    list-style: none !important;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Client start */
+
+#Client {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: rgba(244, 246, 252, 0.651);
+}
+.client_left h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.client_left p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.client_right p {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.client_left_bottom h5 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.client_left_bottom h6 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(40, 41, 56);
+    
+}
+
+/* Client end */

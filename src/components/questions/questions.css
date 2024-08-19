@@ -1,0 +1,60 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul li {
+    list-style: none !important;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Questions Start */
+
+#Questions {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.ques_right {
+    align-items: center;
+}
+
+.accordion-button {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.accordion-body {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(40, 41, 56, 0.753);
+    
+}
+.ques_left h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.ques_left a {
+    
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2405F2;
+    margin-top: 40px;
+    
+}
+
+
+
+/* Questions End */

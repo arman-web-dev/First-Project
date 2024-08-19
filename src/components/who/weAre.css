@@ -1,0 +1,41 @@
+/*  We are start */
+
+
+#Who_we {
+    padding: 80px 0;
+    background-color: #F4F5F5;
+}
+.we_img img  {
+    width: 100%;
+    
+}
+.we_total {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.we_total h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.we_total h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 16px;
+
+}
+.we_total p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: rgba(40, 41, 56, 0.87);
+
+}
+
+/*  We are End */
