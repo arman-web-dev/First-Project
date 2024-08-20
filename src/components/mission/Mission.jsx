@@ -5,7 +5,8 @@ import Girls from '../../assets/girls.png'
 import './mission.css'
 const Mission = () => {
     return (
-       <div> <section id="Inspire">
+       <div>
+         <section id="Inspire">
        <Container>
            <Row className="inspire_total">
                <Col lg={6}>

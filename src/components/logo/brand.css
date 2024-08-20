@@ -1,0 +1,24 @@
+/* LOGO START */
+
+
+
+.benefits_logo {
+    align-items: center;
+    padding-top: 48px;
+}
+.benefits_logo h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.benefits_logo h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+
+/* LOGO end */

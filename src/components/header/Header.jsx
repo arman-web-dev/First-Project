@@ -16,10 +16,10 @@ const Header = () => {
         <Nav className="ms-auto mb-2 mb-lg-0">
           <Link to='/'>Home</Link>
           <Link to='/about'>About Us</Link>
-          <Link>Features</Link>
-          <Link>Pricing</Link>
-          <Link>Blog</Link>
-          <Link>Contact Us</Link>
+          <Link to="/feature">Features</Link>
+          <Link to='/pricing'>Pricing</Link>
+          <Link to='/blog'>Blog</Link>
+          <Link to='/contact'>Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

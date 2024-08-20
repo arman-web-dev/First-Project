@@ -4,6 +4,10 @@ import AboutPage from "./pages/AboutPage"
 import {
   createBrowserRouter,createRoutesFromElements,RouterProvider,Route
 } from 'react-router-dom'
+import Feature from "./pages/Feature"
+import Pricing from "./pages/Pricing"
+import Blog from "./pages/BlogPage"
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -11,6 +15,10 @@ function App() {
     <Route element= {<Layout />}>
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<AboutPage/>}></Route>
+      <Route path="/feature" element={<Feature/>}></Route>
+      <Route path="/pricing" element={<Pricing/>}></Route>
+      <Route path="/blog" element={<Blog/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
 
     </Route>
   ))

@@ -26,6 +26,7 @@ img {
 .navbar_total {
 
     background-color: #1C1E53;
+    height: 80px !important;
 }
 Nav a {
     color: white;

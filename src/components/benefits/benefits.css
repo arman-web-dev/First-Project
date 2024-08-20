@@ -1,0 +1,51 @@
+/* Benefit Start */
+#Benefits {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.benefits_title h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.benefit_inner_items {
+    background-color: #F4F6FC;
+    padding: 50px 10px 48px 48px;
+}
+.benefit_inner_items h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-top: 26px;
+}
+.benefit_inner_items p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.benefits_logo {
+    align-items: center;
+    padding-top: 48px;
+}
+.benefits_logo h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+}
+.benefits_logo h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+
+
+/* Benefit End */

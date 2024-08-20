@@ -3,6 +3,7 @@ import Design from '../components/designs/Design'
 import WhoWeAre from '../components/who/WhoWeAre'
 import Process from '../components/process/Process'
 import Mission from '../components/mission/Mission'
+import Benefits from '../components/benefits/Benefits'
 
 const AboutPage = () => {
   return (
@@ -11,6 +12,7 @@ const AboutPage = () => {
       <WhoWeAre/>
       <Process/>
       <Mission/>
+      <Benefits/>
     </div>
   )
 }
