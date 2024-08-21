@@ -1,0 +1,112 @@
+/* Plan Start */
+
+#Plan {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #FFFFFF;
+}
+.icon-style {
+    color: #97DAAD;
+    padding-right: 10px;
+}
+
+.plan_title  {
+    text-align: center;
+    padding-bottom: 64px;
+}
+.plan_title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.plan_title p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938d0;
+}
+
+.plan_inner_item {
+    background-color: #F4F6FC;
+    padding: 54px 0px 40px 48px;
+    border-radius: 12px;
+    transition: .4s;
+    transform: scale(1);
+}
+.plan_inner_item:hover {
+    background-color: #1C1E53;
+    transform: scale(1.1);
+}
+.plan_inner_item h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    display: inline-block;
+    padding-bottom: 32px;
+
+}
+.plan_inner_item:hover h3{
+    color: #ffffff;
+}
+.plan_inner_item:hover p{
+    color: #ffffffd0;
+}
+.plan_inner_item:hover h4{
+    color: #FFF;
+}
+.plan_inner_item:hover a{
+    color: #FCD980;
+
+}
+.plan_inner_item:hover h6{
+    color: rgba(255, 255, 255, 0.712);
+}
+.plan_inner_item:hover button {
+    background-color: #FCD980;
+    color: #1C1E53;
+}
+.plan_inner_item h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 10px;
+
+}
+.plan_inner_item p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.plan_inner_item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 10px;
+    
+}
+.plan_inner_item i {
+    padding-right: 10px;
+    color: #97DAAD;
+}
+.plan_inner_item button {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #282938;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border: none;
+
+}
+/* Plan End */
