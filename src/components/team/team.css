@@ -1,0 +1,84 @@
+/* TEAM START */
+
+#TEAM {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #F4F6FC;
+}
+.team_title {
+    text-align: center;
+}
+.team_title h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-bottom: 48px;
+    
+}
+.member_inner {
+    text-align: center;
+}
+.member_inner h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #1D2130;
+    padding-top: 30px;
+    
+}
+.member_inner h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #1D2130;
+    padding-bottom: 32px;
+    
+}
+.member_inner img {
+    padding-top: 48px;
+}
+.member_inner {
+    background-color: #FFFFFF;
+}
+.member_inner_img{
+    position: relative;
+
+}
+.img_inner_style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 100px;
+    opacity: 0;
+    transition: .4s;
+}
+.img_inner_style a{
+    margin-right: 10px;
+    transform: scale(1);
+    transition: .3s;
+    color: #000;
+}
+.img_inner_style a:hover {
+    transform: scale(1.5);
+    color: #ffffff;
+}
+.member_inner_img:hover .img_inner_style {
+    opacity: 1;
+}
+.bg_color img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .3;
+    
+}
+.member_inner_img:hover .bg_color img {
+    opacity: 1;
+}
+
+
+/* TEAM END */

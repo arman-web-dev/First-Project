@@ -4,6 +4,7 @@ import WhoWeAre from '../components/who/WhoWeAre'
 import Process from '../components/process/Process'
 import Mission from '../components/mission/Mission'
 import Benefits from '../components/benefits/Benefits'
+import TeamSection from '../components/team/TeamSection'
 
 const AboutPage = () => {
   return (
@@ -13,6 +14,7 @@ const AboutPage = () => {
       <Process/>
       <Mission/>
       <Benefits/>
+      <TeamSection/>
     </div>
   )
 }
