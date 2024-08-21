@@ -1,12 +1,16 @@
 import React from 'react'
 import FeatureBanner from '../components/feature_banner/FeatureBanner'
-import Brand from '../components/logo/Brand'
+import Benefits from '../components/benefits/Benefits'
+import Questions from '../components/questions/Questions'
+import ClientFeature from '../components/ClientSection/ClientFeature'
 
 const Feature = () => {
   return (
     <div>
-      <FeatureBanner/>
-      <Brand/>
+      <FeatureBanner />
+      <Benefits />
+      <ClientFeature/>
+    <Questions/>
     </div>
   )
 }

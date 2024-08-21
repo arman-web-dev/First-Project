@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './client.css'
+import './clientHome.css'
 import jenny from '../../assets/jenny.png'
 
-const Client = () => {
+const ClientHome = () => {
   return (
     <section id="Client">
       <Container>
@@ -32,4 +32,4 @@ const Client = () => {
   );
 };
 
-export default Client;
+export default ClientHome;

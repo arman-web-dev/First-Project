@@ -5,8 +5,8 @@ import ViewSection from '../components/viewSection/ViewSection'
 import BlogSection from '../components/blog/BlogSection'
 import StellarSection from '../components/stellar/StellarSection'
 import Questions from '../components/questions/Questions'
-import Client from '../components/clientsA/Clients'
 import Features from '../components/features/Features'
+import ClientHome from '../components/clientsA/ClientHome'
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <Work />
       <ViewSection/>
       <Features/>
-      <Client/>
+      <ClientHome/>
       <Questions/>
       <StellarSection/>
       <BlogSection/>

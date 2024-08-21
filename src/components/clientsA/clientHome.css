@@ -18,8 +18,7 @@ img {
 /* Client start */
 
 #Client {
-    padding-top: 130px;
-    padding-bottom: 130px;
+   padding: 120px 0;
     background-color: rgba(244, 246, 252, 0.651);
 }
 .client_left h3 {

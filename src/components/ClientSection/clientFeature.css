@@ -1,0 +1,46 @@
+
+/* Client Start */
+#Client {
+    padding: 0 0;
+}
+.client_img img {
+    width: 100%;
+}
+.client_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938d7;
+    
+}
+.client_text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    
+}
+.client_text h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    
+}
+.client_all {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    align-items: center;
+}
+.second_part {
+    background-color: #F4F6FC;
+}
+
+.four_part {
+    background-color: rgba(252, 217, 128, 0.1);
+}
+
+
+/* Client end */
