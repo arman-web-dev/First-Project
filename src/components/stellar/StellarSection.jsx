@@ -31,7 +31,7 @@ const StellarSection = () => {
                 <Form.Group className="mb-3">
                   <Form.Control type="url" placeholder="Paste your Figma design URL" />
                 </Form.Group>
-                <Button type="submit">Send an Inquiry</Button>
+                <Button type="submit" className='send'>Send an Inquiry</Button>
                 <div className="get_touch mt-3">
                   <a href="#">Get in touch with us &rarr;</a>
                 </div>

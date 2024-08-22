@@ -143,3 +143,7 @@ img {
     text-align: center;
     padding-top: 16px;
 }
+.send {
+    background-color: #FFFFFF !important;
+    border: none;
+}
