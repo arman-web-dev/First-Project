@@ -4,81 +4,104 @@
     padding-top: 128px;
     padding-bottom: 128px;
     background-color: #F4F6FC;
+    overflow: hidden; /* Prevent scroll issues */
 }
+
 .team_title {
     text-align: center;
 }
+
 .team_title h3 {
     font-size: 48px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #282938;
     padding-bottom: 48px;
-    
 }
+
 .member_inner {
     text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure no overflow within the member container */
 }
+
 .member_inner h4 {
     font-size: 24px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #1D2130;
     padding-top: 30px;
-    
 }
+
 .member_inner h5 {
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     color: #1D2130;
-    padding-bottom: 32px;
-    
 }
-.member_inner img {
-    padding-top: 48px;
-}
-.member_inner {
-    background-color: #FFFFFF;
-}
-.member_inner_img{
-    position: relative;
 
+.member_inner_img {
+    position: relative;
+    width: 150px; /* Set a specific width */
+    height: 150px; /* Set a specific height */
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%;
+    overflow: hidden; /* Ensure no overflow outside the circular container */
 }
+
+.member_inner_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative; /* Keep the image positioned correctly */
+}
+
+.bg_color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust overlay color and opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.member_inner_img:hover .bg_color {
+    opacity: 1;
+}
+
 .img_inner_style {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    padding-top: 100px;
+    transform: translate(-50%, -50%);
     opacity: 0;
-    transition: .4s;
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
-.img_inner_style a{
+
+.member_inner_img:hover .img_inner_style {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.img_inner_style a {
     margin-right: 10px;
-    transform: scale(1);
-    transition: .3s;
-    color: #000;
+    color: #fff; /* Set default icon color */
+    transition: transform 0.3s ease, color 0.3s ease;
 }
+
 .img_inner_style a:hover {
     transform: scale(1.5);
     color: #ffffff;
 }
-.member_inner_img:hover .img_inner_style {
-    opacity: 1;
-}
-.bg_color img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 0;
-    transition: .3;
-    
-}
-.member_inner_img:hover .bg_color img {
-    opacity: 1;
-}
-
 
 /* TEAM END */

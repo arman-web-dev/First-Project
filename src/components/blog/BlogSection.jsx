@@ -4,6 +4,7 @@ import './blog.css'
 import Man from '../../assets/man.png'
 import Women from '../../assets/women.png'
 import Laptop from '../../assets/laptop.png'
+
 const BlogSection = () => {
   return (
     <section id="Blog">
